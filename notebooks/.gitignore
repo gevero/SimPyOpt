@@ -1,0 +1,31 @@
+# Python-specific
+*.pyc
+*.pyo
+__pycache__/
+.pytest_cache/
+.tox/
+.coverage
+
+# Virtual environment directories
+venv/
+env/
+virtualenv/
+
+# Test results
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.swp
+*.bak
+*~
